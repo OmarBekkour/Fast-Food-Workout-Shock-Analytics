@@ -57,9 +57,9 @@ Correlates consumer demographic traits (Age, Weight) with exercise recovery pena
 
 ---
 
-## Data Architecture & Modeling
+## Data Architecture & Privacy
 
-To ensure optimal query performance and enterprise-grade scalability, the analytical model was engineered using strict data architecture standards:
-* **Star Schema Architecture:** Centralized `Fact_Meals` transactional table surrounded by standardized dimension tables for fast cross-filtering and drill-down operations.
-* **Custom DAX Logic:** Fully developed calculation engine handling unit standardizations (converting exercise hours to minutes), dynamic threshold percentages, and multi-variable metric aggregations.
-* **Design & UI Standardization:** Formatted using an executive-grade "Espresso / Warm Mocha" dark theme, adhering to accessibility contrast guidelines and clean typography hierarchy.
+To maintain strict transactional confidentiality while ensuring enterprise scalability, the underlying analytical model is built using industry-standard enterprise practices:
+* **Star Schema Modeling:** Centralized `Fact_Meals` transactional table surrounded by standardized dimension tables for fast cross-filtering and drill-down operations.
+* **Advanced DAX Logic:** Fully developed calculation engine handling unit standardizations (converting exercise hours to minutes), dynamic threshold percentages, and multi-variable metric aggregations.
+* **Data Anonymization & Privacy:** Raw transactional identifiers and sensitivity-prone metrics are anonymized and structured to comply with enterprise data governance standards while preserving full analytical accuracy.
